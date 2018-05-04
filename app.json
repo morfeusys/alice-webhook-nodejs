@@ -1,10 +1,12 @@
 {
-  "name": "Alice Node.js webhook",
-  "description": "Simple webhook server for Alice voice assistant on Node.js",
+  "name": "Вебхук на Node.js для Алисы",
+  "description": "Нажмите на кнопку View после установки",
   "repository": "https://github.com/morfeusys/alice-webhook-nodejs",
   "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
   "success_url": "/setup",
   "buildpacks": [
-    {"url": "heroku/nodejs"}
+    {
+      "url": "heroku/nodejs"
+    }
   ]
 }
