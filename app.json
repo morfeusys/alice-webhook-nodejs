@@ -3,5 +3,6 @@
   "description": "Simple webhook server for Alice voice assistant on Node.js",
   "repository": "https://bitbucket.org/morfeusys/alice_nodejs_webhook",
   "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
-  "success_url": "/setup"
+  "success_url": "/setup",
+  "buildpacks": ["heroku/nodejs"]
 }
