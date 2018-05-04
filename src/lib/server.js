@@ -14,8 +14,7 @@ http.createServer((req, res) => {
     if (req.url === '/setup') {
         res.writeHead(301,
             {
-                "Location": 'http://localhost:8080/dashboard/setup/webhook',
-                "Referer": req.headers.host || ''
+                "Location": `http://localhost:8080/dashboard/setup/webhook?host=${req.headers.host}`
             }
         );
         res.end();
