@@ -2,7 +2,7 @@
   "name": "Вебхук на Node.js для Алисы",
   "description": "Нажмите на кнопку View после установки",
   "repository": "https://github.com/morfeusys/alice-webhook-nodejs",
-  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
+  "logo": "https://cdn.jsdelivr.net/gh/heroku/node-js-getting-started@master/public/node.svg",
   "success_url": "/setup",
   "buildpacks": [
     {
